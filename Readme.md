@@ -1,5 +1,4 @@
-### Daily Coding Problem: Problem #173 [Easy] 
-
+#### Daily Coding Problem: Problem #173 [Easy] 
 ```
 This problem was asked by Stripe.
 Write a function to flatten a nested dictionary. Namespace the keys with a period.
