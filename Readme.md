@@ -52,4 +52,20 @@ The second game: same, except that the stopping condition is a five followed by 
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 
 ```
-
+#### Daily Coding Problem: Problem #185 [Easy]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Google.
+Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
+For example, given the following rectangles:
+{
+    "top_left": (1, 4),
+    "dimensions": (3, 3) # width, height
+}
+and
+{
+    "top_left": (0, 5),
+    "dimensions": (4, 3) # width, height
+}
+return 6.
+```
