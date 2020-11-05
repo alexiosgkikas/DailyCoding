@@ -3,6 +3,7 @@
 This problem was asked by Google.
 Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
 For example, 1 -> 4 -> 3 -> 4 -> 1 returns True while 1 -> 4 returns False
+[https://github.com/alexiosgkikas/DailyCoding/blob/master/codesPython/coding104.py](code)
 ```
 #### Daily Coding Problem: Problem #172 [Medium] 
 ```
@@ -74,6 +75,7 @@ return 6.
 This problem was asked by Amazon.
 Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array.
 For example, for the input [1, 2, 3, 10], you should return 7.
-Do this in O(N) time.
+Do this in O(N) time. 
+[](code)
 ````
 
