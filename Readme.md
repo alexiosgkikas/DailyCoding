@@ -4,6 +4,9 @@ This problem was asked by Google.
 Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
 For example, 1 -> 4 -> 3 -> 4 -> 1 returns True while 1 -> 4 returns False
 ```
+[*code*](codesPython/coding104.py)
+
+---
 #### Daily Coding Problem: Problem #172 [Medium] 
 ```
 This problem was asked by Dropbox.
@@ -17,8 +20,10 @@ return [0, 13], since "dogcat" starts at index 0 and "catdog" starts at index 13
 Given s = "barfoobazbitbyte" and words = ["dog", "cat"], return [] since
 there are no substrings composed of "dog" and "cat" in s.
 The order of the indices does not matter.
-
 ```
+[*code*](codesPython/coding172.py)
+
+---
 
 #### Daily Coding Problem: Problem #173 [Easy] 
 ```
@@ -42,7 +47,9 @@ it should become:
 }
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 ```
+[*code*](codesPython/coding173.py)
 
+---
 #### Daily Coding Problem: Problem #178 [Hard]
 ```
 This problem was asked by Two Sigma.
@@ -50,8 +57,10 @@ Alice wants to join her school's Probability Student Club. Membership dues are c
 The first game: roll a die repeatedly. Stop rolling once you get a five followed by a six. Your number of rolls is the amount you pay, in dollars.
 The second game: same, except that the stopping condition is a five followed by a five.
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
-
 ```
+[*code*](codesPython/coding173.py)
+
+---
 #### Daily Coding Problem: Problem #185 [Easy]
 ```
 Good morning! Here's your coding interview problem for today.
@@ -69,11 +78,30 @@ and
 }
 return 6.
 ```
+<<<<<<< HEAD
 
+=======
+[*code*](codesPython/coding185.py)
+
+---
+>>>>>>> 7f847aab07eecda41c17b36325bd83050eaa9e37
 ```
 This problem was asked by Amazon.
 Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array.
 For example, for the input [1, 2, 3, 10], you should return 7.
+<<<<<<< HEAD
 Do this in O(N) time.
 ```
+=======
+Do this in O(N) time. 
+
+````
+[*code*](codesPython/coding185.py)
+
+---
+
+
+
+
+>>>>>>> 7f847aab07eecda41c17b36325bd83050eaa9e37
 
