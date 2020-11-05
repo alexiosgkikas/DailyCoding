@@ -5,6 +5,7 @@ Determine whether a doubly linked list is a palindrome. What if it’s singly li
 For example, 1 -> 4 -> 3 -> 4 -> 1 returns True while 1 -> 4 returns False
 ```
 [*code*](codesPython/coding104.py)
+
 ---
 #### Daily Coding Problem: Problem #172 [Medium] 
 ```
@@ -20,7 +21,8 @@ Given s = "barfoobazbitbyte" and words = ["dog", "cat"], return [] since
 there are no substrings composed of "dog" and "cat" in s.
 The order of the indices does not matter.
 ```
-<a>[code](codesPython/coding172.py)</a>
+[*code*](codesPython/coding172.py)
+
 ---
 
 #### Daily Coding Problem: Problem #173 [Easy] 
@@ -45,7 +47,8 @@ it should become:
 }
 You can assume keys do not contain dots in them, i.e. no clobbering will occur.
 ```
-[code](codesPython/coding173.py)
+[*code*](codesPython/coding173.py)
+
 ---
 #### Daily Coding Problem: Problem #178 [Hard]
 ```
@@ -55,7 +58,8 @@ The first game: roll a die repeatedly. Stop rolling once you get a five followed
 The second game: same, except that the stopping condition is a five followed by a five.
 Which of the two games should Alice elect to play? Does it even matter? Write a program to simulate the two games and calculate their expected value.
 ```
-[code](codesPython/coding173.py)
+[*code*](codesPython/coding173.py)
+
 ---
 #### Daily Coding Problem: Problem #185 [Easy]
 ```
@@ -74,7 +78,8 @@ and
 }
 return 6.
 ```
-[code](codesPython/coding185.py)
+[*code*](codesPython/coding185.py)
+
 ---
 ```
 This problem was asked by Amazon.
@@ -83,7 +88,8 @@ For example, for the input [1, 2, 3, 10], you should return 7.
 Do this in O(N) time. 
 
 ````
-[code](codesPython/coding185.py)
+[*code*](codesPython/coding185.py)
+
 ---
 
 
