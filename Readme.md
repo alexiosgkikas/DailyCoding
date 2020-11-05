@@ -78,30 +78,36 @@ and
 }
 return 6.
 ```
-<<<<<<< HEAD
-
-=======
 [*code*](codesPython/coding185.py)
 
 ---
->>>>>>> 7f847aab07eecda41c17b36325bd83050eaa9e37
+#### Daily Coding Problem: Problem #649 [Easy] 
 ```
-This problem was asked by Amazon.
-Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array.
-For example, for the input [1, 2, 3, 10], you should return 7.
-<<<<<<< HEAD
-Do this in O(N) time.
-```
-=======
-Do this in O(N) time. 
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Google.
+Given a string, return the first recurring character in it, or null if there is no recurring character.
+For example, given the string "acbbac", return "b". Given the string "abcdef", return null.
 
-````
-[*code*](codesPython/coding185.py)
+
+```
+
+[*code*](codesPython/coding649.py)
+
+---
+#### Daily Coding Problem: Problem #650 [Hard] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Google.
+Let A be an N by M matrix in which every row and every column is sorted.
+Given i1, j1, i2, and j2, compute the number of elements of M smaller than M[i1, j1] and larger than M[i2, j2].
+For example, given the following matrix:
+
+```
+[*code*](codesPython/coding650.py)
 
 ---
 
 
 
 
->>>>>>> 7f847aab07eecda41c17b36325bd83050eaa9e37
 
