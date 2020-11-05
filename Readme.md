@@ -3,8 +3,9 @@
 This problem was asked by Google.
 Determine whether a doubly linked list is a palindrome. What if it’s singly linked?
 For example, 1 -> 4 -> 3 -> 4 -> 1 returns True while 1 -> 4 returns False
-[code](https://github.com/alexiosgkikas/DailyCoding/blob/master/codesPython/coding104.py)
 ```
+[code](..blob/master/codesPython/coding104.py)
+
 #### Daily Coding Problem: Problem #172 [Medium] 
 ```
 This problem was asked by Dropbox.
