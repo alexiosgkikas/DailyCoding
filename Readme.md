@@ -20,8 +20,9 @@ Given s = "barfoobazbitbyte" and words = ["dog", "cat"], return [] since
 there are no substrings composed of "dog" and "cat" in s.
 The order of the indices does not matter.
 ```
-[code](codesPython/coding172.py)
+<a>[code](codesPython/coding172.py)</a>
 ---
+
 #### Daily Coding Problem: Problem #173 [Easy] 
 ```
 This problem was asked by Stripe.
