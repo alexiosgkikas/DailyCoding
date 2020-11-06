@@ -43,7 +43,7 @@ if __name__ == "__main__":
                 smaller += 1
             else :
                 continue
-    print( smaller )
+             
     greater  = (M-i2)*(N-j2) -1
 
 
