@@ -6,3 +6,21 @@ Given N, M, and B, determine the number of valid playlists
 """
 
 
+
+def createplaylists(songs,N,M,B):
+    
+    
+
+    return None
+
+
+if __name__ == "__main__()":
+    songs = [1,2,3,4,5]
+    N  = 15
+    M  = 5
+    B = 3
+
+
+
+
+

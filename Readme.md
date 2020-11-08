@@ -175,6 +175,48 @@ For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 [*code*](codesPython/coding568.py)
 
 ---
+#### Daily Coding Problem: Problem #574 [Medium] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Amazon.
+Implement a bit array.
+A bit array is a space efficient array that holds a value of 1 or 0 at each index.
+•	init(size): initialize the array with size
+•	set(i, val): updates index at i with val where val is either 1 or 0.
+•	get(i): gets the value at index i.
+```
+[*code*](codesPython/coding574.py)
+
+---
+#### Daily Coding Problem: Problem #575 [Medium] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Uber.
+Implement a 2D iterator class. It will be initialized with an array of arrays, and should implement the following methods:
+•	next(): returns the next element in the array of arrays. If there are no more elements, raise an exception.
+•	has_next(): returns whether or not the iterator still has elements left.
+For example, given the input [[1, 2], [3], [], [4, 5, 6]], calling next() repeatedly should output 1, 2, 3, 4, 5, 6.
+Do not use flatten or otherwise clone the arrays. Some of the arrays can be empty.
+```
+[*code*](codesPython/coding575.py)
+
+---
+#### Daily Coding Problem: Problem #645 [Easy]
+```
+Daily Coding Problem: Problem #645 [Easy]
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Microsoft.
+Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
+For example, given the following matrix:
+[['F', 'A', 'C', 'I'],
+ ['O', 'B', 'Q', 'P'],
+ ['A', 'N', 'O', 'B'],
+ ['M', 'A', 'S', 'S']]
+and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+```
+[*code*](codesPython/coding645.py)
+
+---
 #### Daily Coding Problem: Problem #649 [Easy] 
 ```
 Good morning! Here's your coding interview problem for today.
@@ -202,3 +244,27 @@ For example, given the following matrix:
 ```
 [*code*](codesPython/coding650.py)
 
+---
+#### Daily Coding Problem: Problem #653 [Easy] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Google.
+You are given given a list of rectangles represented by min and max x- and y-coordinates. Compute whether or not a pair of rectangles overlap each other. If one rectangle completely covers another, it is considered overlapping.
+For example, given the following rectangles:
+{
+    "top_left": (1, 4),
+    "dimensions": (3, 3) # width, height
+},
+{
+    "top_left": (-1, 3),
+    "dimensions": (2, 1)
+},
+{
+    "top_left": (0, 5),
+    "dimensions": (4, 3)
+}
+return true as the first and third rectangle overlap each other.
+```
+[*code*](codesPython/coding653.py)
+
+---
