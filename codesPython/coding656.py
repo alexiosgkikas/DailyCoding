@@ -15,6 +15,9 @@ B B B
 """
 
 def change_color(image, p, new):
+    if p[0] < 1 or p[1]<0  or p[0] > len(image) or p[1] > len(image[1]):
+        print("The point doesnt exist in image")
+        return False
     row = p[0]-1
     col = p[1]-1
     old = image[row][col]
@@ -27,7 +30,7 @@ def change_color(image, p, new):
             if image[i][j] is old:
                 image[i][j] = new
     
-    #return image
+    return True
 
 
 if __name__ == "__main__":
@@ -37,5 +40,6 @@ if __name__ == "__main__":
         ['W','W','W'],
         ['B','B','B']
     ]
-    change_color(image, (3,3), 'G')
-    print(image)
+    
+    if change_color(image, (2,2), 'G'):
+        print(image)
