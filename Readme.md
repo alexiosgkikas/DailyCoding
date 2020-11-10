@@ -175,6 +175,15 @@ For example, given [-9, -2, 0, 2, 3], return [0, 4, 4, 9, 81].
 [*code*](codesPython/coding568.py)
 
 ---
+#### Daily Coding Problem: Problem #570 [Hard] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Google.
+Given two non-empty binary trees s and t, check whether tree t has exactly the same structure and node values with a subtree of s. A subtree of s is a tree consists of a node in s and all of this node's descendants. The tree s could also be considered as a subtree of itself.
+```
+[*code*](codesPython/coding570.py)
+
+---
 #### Daily Coding Problem: Problem #574 [Medium] 
 ```
 Good morning! Here's your coding interview problem for today.
@@ -201,9 +210,71 @@ Do not use flatten or otherwise clone the arrays. Some of the arrays can be empt
 [*code*](codesPython/coding575.py)
 
 ---
+#### Daily Coding Problem: Problem #577 [Medium]
+```
+
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Dropbox.
+Given a list of words, determine whether the words can be chained to form a circle. A word X can be placed in front of another word Y in a circle if the last character of X is same as the first character of Y.
+For example, the words ['chair', 'height', 'racket', touch', 'tunic'] can form the following circle: chair --> racket --> touch --> height --> tunic --> chair.
+```
+[*code*](codesPython/coding577.py)
+
+---
+#### Daily Coding Problem: Problem #599 [Hard]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Two Sigma.
+Ghost is a two-person word game where players alternate appending letters to a word. The first person who spells out a word, or creates a prefix for which there is no possible continuation, loses. Here is a sample game:
+•	Player 1: g
+•	Player 2: h
+•	Player 1: o
+•	Player 2: s
+•	Player 1: t [loses]
+Given a dictionary of words, determine the letters the first player should start with, such that with optimal play they cannot lose.
+For example, if the dictionary is ["cat", "calf", "dog", "bear"], the only winning start letter would be b.
+```
+[*code*](codesPython/coding599.py)
+
+---
+#### Daily Coding Problem: Problem #600 [Easy] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Google.
+Given a set of points (x, y) on a 2D cartesian plane, find the two closest points. For example, given the points [(1, 1), (-1, -1), (3, 4), (6, 1), (-1, -6), (-4, -3)], return [(-1, -1), (1, 1)].
+```
+[*code*](codesPython/coding600.py)
+
+---
+#### Daily Coding Problem: Problem #601 [Medium] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Pinterest.
+The sequence [0, 1, ..., N] has been jumbled, and the only clue you have for its order is an array representing whether each number is larger or smaller than the last. Given this information, reconstruct an array that is consistent with it. For example, given [None, +, +, -, +], you could return [1, 2, 3, 0, 4].
+```
+[*code*](codesPython/coding601.py)
+
+---
+#### Daily Coding Problem: Problem #644 [Easy] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Google.
+A unival tree (which stands for "universal value") is a tree where all nodes under it have the same value.
+Given the root to a binary tree, count the number of unival subtrees.
+For example, the following tree has 5 unival subtrees:
+   0
+  / \
+ 1   0
+    / \
+   1   0
+  / \
+ 1   1
+```
+[*code*](codesPython/coding644.py)
+
+---
 #### Daily Coding Problem: Problem #645 [Easy]
 ```
-Daily Coding Problem: Problem #645 [Easy]
 Good morning! Here's your coding interview problem for today.
 This problem was asked by Microsoft.
 Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
@@ -270,12 +341,22 @@ return true as the first and third rectangle overlap each other.
 ---
 #### Daily Coding Problem: Problem #654 [Medium]
 ```
-Daily Coding Problem: Problem #654 [Medium]
 Good morning! Here's your coding interview problem for today.
 This problem was asked by Amazon.
 Given a string, find the length of the smallest window that contains every distinct character. Characters may appear more than once in the window.
 For example, given "jiujitsu", you should return 5, corresponding to the final five letters.
 ```
 [*code*](codesPython/coding654.py)
+
+---
+#### Daily Coding Problem: Problem #655 [Easy] 
+```
+
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Facebook.
+Given a 32-bit integer, return the number with its bits reversed.
+For example, given the binary number 1111 0000 1111 0000 1111 0000 1111 0000, return 0000 1111 0000 1111 0000 1111 0000 1111.
+```
+[*code*](codesPython/coding655.py)
 
 ---
