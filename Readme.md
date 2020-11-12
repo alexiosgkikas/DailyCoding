@@ -255,6 +255,37 @@ The sequence [0, 1, ..., N] has been jumbled, and the only clue you have for its
 [*code*](codesPython/coding601.py)
 
 ---
+#### Daily Coding Problem: Problem #638 [Medium]
+```
+
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Google.
+Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
+Follow-up: given a mutable string representation, can you perform this operation in-place?
+```
+[*code*](codesPython/coding638.py)
+
+---
+#### Daily Coding Problem: Problem #639 [Easy] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Yelp.
+Given a mapping of digits to letters (as in a phone number), and a digit string, return all possible letters the number could represent. You can assume each valid number in the mapping is a single digit.
+For example if {“2”: [“a”, “b”, “c”], 3: [“d”, “e”, “f”], …} then “23” should return [“ad”, “ae”, “af”, “bd”, “be”, “bf”, “cd”, “ce”, “cf"].
+```
+[*code*](codesPython/coding639.py)
+
+---
+#### Daily Coding Problem: Problem #641 [Easy] 
+```
+This problem was asked by Amazon.
+Given a sorted array, find the smallest positive integer that is not the sum of a subset of the array.
+For example, for the input [1, 2, 3, 10], you should return 7.
+Do this in O(N) time.
+```
+[*code*](codesPython/coding641.py)
+
+---
 #### Daily Coding Problem: Problem #644 [Easy] 
 ```
 Good morning! Here's your coding interview problem for today.
@@ -286,6 +317,26 @@ For example, given the following matrix:
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 ```
 [*code*](codesPython/coding645.py)
+
+---
+#### Daily Coding Problem: Problem #647 [Medium] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Facebook.
+Given a multiset of integers, return whether it can be partitioned into two subsets whose sums are the same.
+For example, given the multiset {15, 5, 20, 10, 35, 15, 10}, it would return true, since we can split it up into {15, 5, 10, 15, 10} and {20, 35}, which both add up to 55.
+Given the multiset {15, 5, 20, 10, 35}, it would return false, since we can't split it up into two subsets that add up to the same sum
+```
+[*code*](codesPython/coding647.py)
+
+---
+#### Daily Coding Problem: Problem #648 [Medium]
+```
+Good morning! Here's your coding interview problem for today.
+This question was asked by Snapchat.
+Given the head to a singly linked list, where each node also has a “random” pointer that points to anywhere in the linked list, deep clone the list.
+```
+[*code*](codesPython/coding648.py)
 
 ---
 #### Daily Coding Problem: Problem #649 [Easy] 
