@@ -221,6 +221,52 @@ For example, the words ['chair', 'height', 'racket', touch', 'tunic'] can form t
 [*code*](codesPython/coding577.py)
 
 ---
+#### Daily Coding Problem: Problem #578 [Easy] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Bloomberg.
+Determine whether there exists a one-to-one character mapping from one string s1 to another s2.
+For example, given s1 = abc and s2 = bcd, return true since we can map a to b, b to c, and c to d.
+Given s1 = foo and s2 = bar, return false since the o cannot map to two characters.
+```
+[*code*](codesPython/coding578.py)
+
+---
+#### Daily Coding Problem: Problem #580 [Easy] 
+```
+Good morning! Here's your coding interview problem for today.
+This question was asked by Apple.
+Given a binary tree, find a minimum path sum from root to a leaf.
+For example, the minimum path in this tree is [10, 5, 1, -1], which has sum 15.
+  10
+ /  \
+5    5
+ \     \
+   2    1
+       /
+     -1
+```
+[*code*](codesPython/coding580.py)
+
+---
+#### Daily Coding Problem: Problem #581 [Easy]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Google.
+Given two rectangles on a 2D graph, return the area of their intersection. If the rectangles don't intersect, return 0.
+For example, given the following rectangles:
+{
+    "top_left": (1, 4),
+    "dimensions": (3, 3) # width, height
+}
+and
+{
+    "top_left": (0, 5),
+    "dimensions": (4, 3) # width, height
+}
+return 6.
+```
+[*code*](codesPython/coding185.py)
 #### Daily Coding Problem: Problem #599 [Hard]
 ```
 Good morning! Here's your coding interview problem for today.
