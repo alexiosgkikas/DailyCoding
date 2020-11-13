@@ -32,8 +32,7 @@ def subdirectories(folder):
         return []
     
     parent_name = folder[0]
-    folder = folder[1:]
-    folder = [ f[1:] if f[0]=='\t' else f for f in folder ] 
+    folder = [f.replace("\t","",1) for f in folder[1:]] 
     list_files = [idx for idx,sub in enumerate(folder) if sub[0] != '\t']
     list_path = []
     right = len(folder)
