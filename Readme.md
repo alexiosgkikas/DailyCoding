@@ -1,3 +1,32 @@
+#### Daily Coding Problem: Problem #17 [Hard] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Google.
+Suppose we represent our file system by a string in the following manner:
+The string "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext" represents:
+dir
+    subdir1
+    subdir2
+        file.ext
+The directory dir contains an empty sub-directory subdir1 and a sub-directory subdir2 containing a file file.ext.
+The string "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext" represents:
+dir
+    subdir1
+        file1.ext
+        subsubdir1
+    subdir2
+        subsubdir2
+            file2.ext
+The directory dir contains two sub-directories subdir1 and subdir2. subdir1 contains a file file1.ext and an empty second-level sub-directory subsubdir1. subdir2 contains a second-level sub-directory subsubdir2 containing a file file2.ext.
+We are interested in finding the longest (number of characters) absolute path to a file within our file system. For example, in the second example above, the longest absolute path is "dir/subdir2/subsubdir2/file2.ext", and its length is 32 (not including the double quotes).
+Given a string representing the file system in the above format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
+Note:
+The name of a file contains at least a period and an extension.
+The name of a directory or sub-directory will not contain a period.
+```
+[*code*](codesPython/coding658.py)
+
+---
 #### Daily Coding Problem: Problem #104 [Easy] 
 ```
 This problem was asked by Google.
@@ -79,6 +108,30 @@ and
 return 6.
 ```
 [*code*](codesPython/coding185.py)
+
+---
+#### Daily Coding Problem: Problem #309 [Hard] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Grammarly.
+Soundex is an algorithm used to categorize phonetically, such that two names that sound alike but are spelled differently have the same representation.
+Soundex maps every name to a string consisting of one letter and three numbers, like M460.
+One version of the algorithm is as follows:
+1.	Remove consecutive consonants with the same sound (for example, change ck -> c).
+2.	Keep the first letter. The remaining steps only apply to the rest of the string.
+3.	Remove all vowels, including y, w, and h.
+4.	Replace all consonants with the following digits:
+o	b, f, p, v → 1
+o	c, g, j, k, q, s, x, z → 2
+o	d, t → 3
+o	l → 4
+o	m, n → 5
+o	r → 6
+5.	If you don't have three numbers yet, append zeros until you do. Keep the first three numbers.
+Using this scheme, Jackson and Jaxen both map to J250.
+Implement Soundex.
+```
+[*code*](codesPython/coding604.py)
 
 ---
 #### Daily Coding Problem: Problem #399 [Hard]
@@ -301,6 +354,40 @@ The sequence [0, 1, ..., N] has been jumbled, and the only clue you have for its
 [*code*](codesPython/coding601.py)
 
 ---
+#### Daily Coding Problem: Problem #602 [Medium] 
+```
+Daily Coding Problem: Problem #602 [Easy]
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Facebook.
+Suppose you are given two lists of n points, one list p1, p2, ..., pn on the line y = 0 and the other list q1, q2, ..., qn on the line y = 1. Imagine a set of n line segments connecting each point pi to qi. Write an algorithm to determine how many pairs of the line segments intersect.
+```
+[*code*](codesPython/coding602.py)
+
+---
+#### Daily Coding Problem: Problem #604 [Hard] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Grammarly.
+Soundex is an algorithm used to categorize phonetically, such that two names that sound alike but are spelled differently have the same representation.
+Soundex maps every name to a string consisting of one letter and three numbers, like M460.
+One version of the algorithm is as follows:
+1.	Remove consecutive consonants with the same sound (for example, change ck -> c).
+2.	Keep the first letter. The remaining steps only apply to the rest of the string.
+3.	Remove all vowels, including y, w, and h.
+4.	Replace all consonants with the following digits:
+o	b, f, p, v → 1
+o	c, g, j, k, q, s, x, z → 2
+o	d, t → 3
+o	l → 4
+o	m, n → 5
+o	r → 6
+5.	If you don't have three numbers yet, append zeros until you do. Keep the first three numbers.
+Using this scheme, Jackson and Jaxen both map to J250.
+Implement Soundex.
+```
+[*code*](codesPython/coding604.py)
+
+---
 #### Daily Coding Problem: Problem #638 [Medium]
 ```
 
@@ -483,5 +570,35 @@ For example, given the set {1, 2, 3}, it should return {{}, {1}, {2}, {3}, {1, 2
 You may also use a list or array to represent a set.
 ```
 [*code*](codesPython/coding657.py)
+
+---
+### Daily Coding Problem: Problem #657 [Easy] 
+```
+Daily Coding Problem: Problem #658 [Hard] 
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Google.
+Suppose we represent our file system by a string in the following manner:
+The string "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext" represents:
+dir
+    subdir1
+    subdir2
+        file.ext
+The directory dir contains an empty sub-directory subdir1 and a sub-directory subdir2 containing a file file.ext.
+The string "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext" represents:
+dir
+    subdir1
+        file1.ext
+        subsubdir1
+    subdir2
+        subsubdir2
+            file2.ext
+The directory dir contains two sub-directories subdir1 and subdir2. subdir1 contains a file file1.ext and an empty second-level sub-directory subsubdir1. subdir2 contains a second-level sub-directory subsubdir2 containing a file file2.ext.
+We are interested in finding the longest (number of characters) absolute path to a file within our file system. For example, in the second example above, the longest absolute path is "dir/subdir2/subsubdir2/file2.ext", and its length is 32 (not including the double quotes).
+Given a string representing the file system in the above format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
+Note:
+The name of a file contains at least a period and an extension.
+The name of a directory or sub-directory will not contain a period.
+```
+[*code*](codesPython/coding658.py)
 
 ---
