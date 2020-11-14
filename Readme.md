@@ -1,3 +1,14 @@
+#### Daily Coding Problem: Problem #2 [Hard]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Uber.
+Given an array of integers, return a new array such that each element at index i of the new array is the product of all the numbers in the original array except the one at i.
+For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120, 60, 40, 30, 24]. If our input was [3, 2, 1], the expected output would be [2, 3, 6].
+Follow-up: what if you can't use division?
+```
+[*code*](codesPython/coding2.py)
+
+---
 #### Daily Coding Problem: Problem #17 [Hard] 
 ```
 Good morning! Here's your coding interview problem for today.
@@ -25,6 +36,23 @@ The name of a file contains at least a period and an extension.
 The name of a directory or sub-directory will not contain a period.
 ```
 [*code*](codesPython/coding658.py)
+
+---
+#### Daily Coding Problem: Problem #98 [Easy]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Coursera.
+Given a 2D board of characters and a word, find if the word exists in the grid.
+The word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.
+For example, given the following board:
+[
+  ['A','B','C','E'],
+  ['S','F','C','S'],
+  ['A','D','E','E']
+]
+exists(board, "ABCCED") returns true, exists(board, "SEE") returns true, exists(board, "ABCB") returns false.
+```
+[*code*](codesPython/coding98.py)
 
 ---
 #### Daily Coding Problem: Problem #104 [Easy] 
@@ -108,6 +136,15 @@ and
 return 6.
 ```
 [*code*](codesPython/coding185.py)
+
+---
+#### Daily Coding Problem: Problem #296 [Hard]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Etsy.
+Given a sorted array, convert it into a height-balanced binary search tree.
+```
+[*code*](codesPython/coding296.py)
 
 ---
 #### Daily Coding Problem: Problem #309 [Hard] 
@@ -195,6 +232,15 @@ For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
 Bonus: Can you do this in one pass?
 ```
 [*code*](codesPython/coding560.py)
+
+---
+#### Daily Coding Problem: Problem #561 [Hard]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Etsy.
+Given a sorted array, convert it into a height-balanced binary search tree.
+```
+[*code*](codesPython/coding561.py)
 
 ---
 #### Daily Coding Problem: Problem #562 [Hard]
@@ -403,6 +449,23 @@ Using this scheme, Jackson and Jaxen both map to J250.
 Implement Soundex.
 ```
 [*code*](codesPython/coding604.py)
+
+---
+#### Daily Coding Problem: Problem #619 [Easy]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Coursera.
+Given a 2D board of characters and a word, find if the word exists in the grid.
+The word can be constructed from letters of sequentially adjacent cell, where "adjacent" cells are those horizontally or vertically neighboring. The same letter cell may not be used more than once.
+For example, given the following board:
+[
+  ['A','B','C','E'],
+  ['S','F','C','S'],
+  ['A','D','E','E']
+]
+exists(board, "ABCCED") returns true, exists(board, "SEE") returns true, exists(board, "ABCB") returns false.
+```
+[*code*](codesPython/coding619.py)
 
 ---
 #### Daily Coding Problem: Problem #638 [Medium]

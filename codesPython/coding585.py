@@ -16,18 +16,20 @@ def find_rectangle(rectangles,idx_row,idx_col,value):
     max_row = idx_row
     for row in range(idx_row,len(rectangles)):
         if rectangles[row][idx_col] == 1:
+            rectangles[row][idx_col] = value
             max_row = row
         else:
             continue
     max_col = idx_col
     for col in range(idx_col,len(rectangles[idx_row])):
         if rectangles[idx_row][col] == 1:
+            rectangles[idx_row][col] = value
             max_col = col
         else:
             continue
     
-    for i in range (idx_row,max_row+1):
-        for j in range (idx_col,max_col+1):
+    for i in range (idx_row+1,max_row+1):
+        for j in range (idx_col+1,max_col+1):
             rectangles[i][j] = value
 
     #print("area: ",(max_row-idx_row+1)* (max_col-idx_col+1))
@@ -44,7 +46,7 @@ def find_max_area(rectangles):
                rectangles,value,area =  find_rectangle(rectangles,idx_row,idx_col,value)
                max_area = max(max_area,area)
                value+=1
-    
+    #print(rectangles)
     return max_area             
 
 
