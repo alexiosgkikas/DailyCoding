@@ -171,6 +171,22 @@ Implement Soundex.
 [*code*](codesPython/coding604.py)
 
 ---
+#### Daily Coding Problem: Problem #369 [Hard]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Two Sigma.
+Ghost is a two-person word game where players alternate appending letters to a word. The first person who spells out a word, or creates a prefix for which there is no possible continuation, loses. Here is a sample game:
+•	Player 1: g
+•	Player 2: h
+•	Player 1: o
+•	Player 2: s
+•	Player 1: t [loses]
+Given a dictionary of words, determine the letters the first player should start with, such that with optimal play they cannot lose.
+For example, if the dictionary is ["cat", "calf", "dog", "bear"], the only winning start letter would be b.
+```
+[*code*](codesPython/coding369.py)
+
+---
 #### Daily Coding Problem: Problem #399 [Hard]
 ```
 Daily Coding Problem: Problem #399 [Hard] 
@@ -468,9 +484,56 @@ exists(board, "ABCCED") returns true, exists(board, "SEE") returns true, exists(
 [*code*](codesPython/coding619.py)
 
 ---
+#### Daily Coding Problem: Problem #631 [Easy]
+```
+Daily Coding Problem: Problem #631 [Hard]
+Good morning! Here's your coding interview problem for today.
+This problem was asked by VMware.
+The skyline of a city is composed of several buildings of various widths and heights, possibly overlapping one another when viewed from a distance. We can represent the buildings using an array of (left, right, height) tuples, which tell us where on an imaginary x-axis a building begins and ends, and how tall it is. The skyline itself can be described by a list of (x, height) tuples, giving the locations at which the height visible to a distant observer changes, and each new height.
+Given an array of buildings as described above, create a function that returns the skyline.
+For example, suppose the input consists of the buildings [(0, 15, 3), (4, 11, 5), (19, 23, 4)]. In aggregate, these buildings would create a skyline that looks like the one below. 
+     ______  
+    |      |        ___
+ ___|      |___    |   | 
+|   |   B  |   |   | C |
+| A |      | A |   |   |
+|   |      |   |   |   |
+------------------------
+As a result, your function should return [(0, 3), (4, 5), (11, 3), (15, 0), (19, 4), (23, 0)].
+```
+[*code*](codesPython/coding631.py)
+
+---
+#### Daily Coding Problem: Problem #634 [Easy]
+```
+Daily Coding Problem: Problem #634 [Medium]
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Square.
+You are given a histogram consisting of rectangles of different heights. These heights are represented in an input list, such that [1, 3, 2, 5] corresponds to the following diagram:
+      x
+      x  
+  x   x
+  x x x
+x x x x
+Determine the area of the largest rectangle that can be formed only from the bars of the histogram. For the diagram above, for example, this would be six, representing the 2 x 3 area at the bottom right.
+```
+[*code*](codesPython/coding634.py)
+
+---
+#### Daily Coding Problem: Problem #637 [Easy]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Snapchat.
+Given a list of possibly overlapping intervals, return a new list of intervals where all overlapping intervals have been merged.
+The input list is not necessarily ordered in any way.
+For example, given [(1, 3), (5, 8), (4, 10), (20, 25)], 
+you should return [(1, 3), (4, 10), (20, 25)].
+```
+[*code*](codesPython/coding637.py)
+
+---
 #### Daily Coding Problem: Problem #638 [Medium]
 ```
-
 Good morning! Here's your coding interview problem for today.
 This problem was asked by Google.
 Given a string of words delimited by spaces, reverse the words in string. For example, given "hello world here", return "here world hello"
@@ -497,6 +560,16 @@ For example, for the input [1, 2, 3, 10], you should return 7.
 Do this in O(N) time.
 ```
 [*code*](codesPython/coding641.py)
+
+---
+#### Daily Coding Problem: Problem #642 [Easy]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Pivotal.
+A step word is formed by taking a given word, adding a letter, and anagramming the result. For example, starting with the word "APPLE", you can add an "A" and anagram to get "APPEAL".
+Given a dictionary of words and an input word, create a function that returns all valid step words.
+```
+[*code*](codesPython/coding642.py)
 
 ---
 #### Daily Coding Problem: Problem #644 [Easy] 
@@ -530,6 +603,26 @@ For example, given the following matrix:
 and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
 ```
 [*code*](codesPython/coding645.py)
+
+---
+#### Daily Coding Problem: Problem #646 [Medium] 
+```
+Daily Coding Problem: Problem #646 [Easy]
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Twitter.
+A classroom consists of N students, whose friendships can be represented in an adjacency list. For example, the following descibes a situation where 0 is friends with 1 and 2, 3 is friends with 6, and so on.
+{0: [1, 2],
+ 1: [0, 5],
+ 2: [0],
+ 3: [6],
+ 4: [],
+ 5: [1],
+ 6: [3]} 
+Each student can be placed in a friend group, which can be defined as the transitive closure of that student's friendship relations. In other words, this is the smallest set such that no student in the group has any friends outside this group.
+For the example above, the friend groups would be {0, 1, 2, 5}, {3, 6}, {4}.
+Given a friendship list such as the one above, determine the number of friend groups in the class.
+```
+[*code*](codesPython/coding646.py)
 
 ---
 #### Daily Coding Problem: Problem #647 [Medium] 
@@ -578,6 +671,16 @@ For example, given the following matrix:
  And i1 = 1, j1 = 1, i2 = 3, j2 = 3, return 15 as there are 15 numbers in the matrix smaller than 6 or greater than 23.
 ```
 [*code*](codesPython/coding650.py)
+
+---
+#### Daily Coding Problem: Problem #651 [Medium]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by LinkedIn.
+Determine whether a tree is a valid binary search tree.
+A binary search tree is a tree with two children, left and right, and satisfies the constraint that the key in the left child must be less than or equal to the root and the key in the right child must be greater than or equal to the root.
+```
+[*code*](codesPython/coding651.py)
 
 ---
 #### Daily Coding Problem: Problem #653 [Easy] 
@@ -652,9 +755,8 @@ You may also use a list or array to represent a set.
 [*code*](codesPython/coding657.py)
 
 ---
-### Daily Coding Problem: Problem #657 [Easy] 
+### Daily Coding Problem: Problem #658 [Hard]
 ```
-Daily Coding Problem: Problem #658 [Hard] 
 Good morning! Here's your coding interview problem for today.
 This problem was asked by Google.
 Suppose we represent our file system by a string in the following manner:
@@ -680,5 +782,35 @@ The name of a file contains at least a period and an extension.
 The name of a directory or sub-directory will not contain a period.
 ```
 [*code*](codesPython/coding658.py)
+
+---
+### Daily Coding Problem: Problem #660 [Hard] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Airbnb.
+You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
+For example, given ['xww', 'wxyz', 'wxyw', 'ywx', 'ywz'], you should return ['x', 'z', 'w', 'y'].
+```
+[*code*](codesPython/coding660.py)
+
+---
+### Daily Coding Problem: Problem #661 [Hard] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Airbnb.
+You come across a dictionary of sorted words in a language you've never seen before. Write a program that returns the correct order of letters in this language.
+For example, given ['xww', 'wxyz', 'wxyw', 'ywx', 'ywz'], you should return ['x', 'z', 'w', 'y'].
+```
+[*code*](codesPython/coding661.py)
+
+---
+### Daily Coding Problem: Problem #662 [Easy]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Amazon.
+Given n numbers, find the greatest common denominator between them.
+For example, given the numbers [42, 56, 14], return 14.
+```
+[*code*](codesPython/coding662.py)
 
 ---

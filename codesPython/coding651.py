@@ -1,11 +1,9 @@
 """
 Daily Coding Problem: Problem #651 [Medium] 
-
 Good morning! Here's your coding interview problem for today.
 This problem was asked by LinkedIn.
 Determine whether a tree is a valid binary search tree.
 A binary search tree is a tree with two children, left and right, and satisfies the constraint that the key in the left child must be less than or equal to the root and the key in the right child must be greater than or equal to the root.
-
 """
 
 class Node:
@@ -18,7 +16,7 @@ class Node:
         if self.value == None:
             self.value = value
         else:
-            if self.value > value:
+            if self.value >= value:
                 if self.left is None:
                     self.left = Node(value)
                 else:
