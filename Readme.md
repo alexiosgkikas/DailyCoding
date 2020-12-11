@@ -187,6 +187,16 @@ For example, if the dictionary is ["cat", "calf", "dog", "bear"], the only winni
 [*code*](codesPython/coding369.py)
 
 ---
+#### Daily Coding Problem: Problem #373 [Hard]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Facebook.
+Given a list of integers L, find the maximum length of a sequence of consecutive numbers that can be formed using elements from L.
+For example, given L = [5, 2, 99, 3, 4, 1, 100], return 5 as we can build a sequence [1, 2, 3, 4, 5] which has length 5.
+```
+[*code*](codesPython/coding373.py)
+
+---
 #### Daily Coding Problem: Problem #399 [Hard]
 ```
 Daily Coding Problem: Problem #399 [Hard] 
@@ -812,5 +822,104 @@ Given n numbers, find the greatest common denominator between them.
 For example, given the numbers [42, 56, 14], return 14.
 ```
 [*code*](codesPython/coding662.py)
+
+---
+### Daily Coding Problem: Problem #665 [Easy] 
+```
+Daily Coding Problem: Problem #665 [Easy] 
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Amazon.
+Given n numbers, find the greatest common denominator between them.
+For example, given the numbers [42, 56, 14], return 14.
+```
+[*code*](codesPython/coding665.py)
+
+---
+### Daily Coding Problem: Problem #668 [Easy]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Google.
+In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
+Here is an example:
+1 2 3 4 8
+5 1 2 3 4
+4 5 1 2 3
+7 4 5 1 2
+Write a program to determine whether a given input is a Toeplitz matrix.
+```
+[*code*](codesPython/coding668.py)
+
+---
+### Daily Coding Problem: Problem #669 [Hard]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Google.
+The game of Nim is played as follows. Starting with three heaps, each containing a variable number of items, two players take turns removing one or more items from a single pile. The player who eventually is forced to take the last stone loses. For example, if the initial heap sizes are 3, 4, and 5, a game could be played as shown below:
+  A  |  B  |  C
+-----------------
+  3  |  4  |  5
+  3  |  1  |  3
+  3  |  1  |  3
+  0  |  1  |  3
+  0  |  1  |  0
+  0  |  0  |  0 
+In other words, to start, the first player takes three items from pile B. The second player responds by removing two stones from pile C. The game continues in this way until player one takes last stone and loses.
+Given a list of non-zero starting values [a, b, c], and assuming optimal play, determine whether the first player has a forced win.
+```
+[*code*](codesPython/coding669.py)
+
+---
+### Daily Coding Problem: Problem #670 [Medium]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Facebook.
+Given a positive integer n, find the smallest number of squared integers which sum to n.
+For example, given n = 13, return 2 since 13 = 3^2 + 2^2 = 9 + 4.
+Given n = 27, return 3 since 27 = 3^2 + 3^2 + 3^2 = 9 + 9 + 9.
+```
+[*code*](codesPython/coding670.py)
+
+---
+### Daily Coding Problem: Problem #673 [Hard]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by LinkedIn.
+Given a list of points, a central point, and an integer k, find the nearest k points from the central point.
+For example, given the list of points [(0, 0), (5, 4), (3, 1)], the central point (1, 2), and k = 2, return [(0, 0), (3, 1)].
+```
+[*code*](codesPython/coding673.py)
+
+---
+### Daily Coding Problem: Problem #674 [Easy]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Google.
+A girl is walking along an apple orchard with a bag in each hand. She likes to pick apples from each tree as she goes along, but is meticulous about not putting different kinds of apples in the same bag.
+Given an input describing the types of apples she will pass on her path, in order, determine the length of the longest portion of her path that consists of just two types of apple trees.
+For example, given the input [2, 1, 2, 3, 3, 1, 3, 5], the longest portion will involve types 1 and 3, with a length of four.
+```
+[*code*](codesPython/coding674.py)
+
+---
+### Daily Coding Problem: Problem #677 [Easy]
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by Square.
+The Sieve of Eratosthenes is an algorithm used to generate all prime numbers smaller than N. The method is to take increasingly larger prime numbers, and mark their multiples as composite. 
+For example, to find all primes less than 100, we would first mark [4, 6, 8, ...] (multiples of two), then [6, 9, 12, ...] (multiples of three), and so on. 
+Once we have done this for all primes less than N, the unmarked numbers that remain will be prime.
+Implement this algorithm.
+Bonus: Create a generator that produces primes indefinitely (that is, without taking N as an input).
+```
+[*code*](codesPython/coding677.py)
+
+---
+### Daily Coding Problem: Problem #678 [Easy] 
+```
+Good morning! Here's your coding interview problem for today.
+This problem was asked by IBM.
+Given an integer, find the next permutation of it in absolute order. For example, given 48975, the next permutation would be 49578.
+```
+[*code*](codesPython/coding678.py)
 
 ---
